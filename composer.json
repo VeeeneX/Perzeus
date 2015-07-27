@@ -1,0 +1,30 @@
+{
+	"name": "veeenex/perzeus",
+	"license": "MIT",
+	"description": "Hashing library",
+	"authors": [
+		{
+			"name": "VeeeneX",
+			"email": "veeenex@gmai.com"
+		}
+	],
+	"require": {
+		"php": ">=5.6"
+	},
+	"require-dev": {
+		"php": ">=5.6",
+		"phpunit/phpunit": "^4.7",
+		"fabpot/php-cs-fixer": "~1.9",
+		"athletic/athletic": "~0.1"
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"VeeeneX\\": "src//"
+		}
+	},
+	"autoload": {
+		"psr-4": {
+			"VeeeneX\\": "src//"
+		}
+	}
+}
