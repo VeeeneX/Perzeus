@@ -35,7 +35,7 @@ class Perzeus
         if ($salt === null) {
             $salt = $this->createSalt();
         }
-        $this->options["salt"] = $startingSalt;
+        $this->options["salt"] = $salt;
 
         if ($endingSalt === null) {
             $endingSalt = $this->getRandomString(mt_rand(22, 50));
