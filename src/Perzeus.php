@@ -20,12 +20,12 @@ class Perzeus
 	public $predend;
 
     public function __construct(
-        string $startingSalt = null,
-        string $salt = null,
-        string $endingSalt = null,
-        int $min = null,
-        int $max = null,
-        int $avalon = null
+        $startingSalt = null,
+        $salt = null,
+        $endingSalt = null,
+        $min = null,
+        $max = null,
+        $avalon = null
     ) {
         if ($startingSalt === null) {
             $startingSalt = $this->getRandomString(mt_rand(22, 50));
