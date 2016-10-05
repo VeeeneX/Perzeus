@@ -7,7 +7,7 @@ class Perzeus
 {
 	public $options = [
 		"cost" => 11,
-        "salt" => "DSASD"
+        	"salt" => "yoursecret"
 	];
 	public $startingSalt;
 	public $predendSalt;
